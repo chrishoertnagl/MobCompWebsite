@@ -19,25 +19,19 @@
         <header>
             <h1>The Honest Mirror</h1>
             <p>A web page that tells you how you look!</p>
-            <ul class="actions">
-                <li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
-            </ul>
+            <button id="showVideo" style="background-color:white;">Open the Mirror and check your look</button>
         </header>
-        <div class="content">
-            <span class="image fill" data-position="center"><img src="images/pic01.jpg" alt=""/></span>
-        </div>
-    </section>
+        <div id="parent" class="content" style="padding:0;">
+            <div id="child_2">
+                <span class="image fill" data-position="center"><img src="images/pic01.png" alt=""/></span>
+            </div>
 
-    <!-- Section -->
-    <section id="first">
-        <header>
-            <h2>Here is the Mirror</h2>
-        </header>
-        <div class="content">
-            <button id="showVideo">Open the Mirror and check your look</button>
-            <video id="videospace" autoplay playsinline></video>
+            <div id="child_1">
+                <video id="videospace" autoplay playsinline></video>
+            </div>
+            <script src="assets/js/honestmirror.js"></script>
         </div>
-        <script src="assets/js/honestmirror.js"></script>
+
     </section>
 
     <!-- Section -->
@@ -55,6 +49,31 @@
             <p><strong>Have a nice day!</strong> </p>
             <script src="assets/js/getlook.js"></script>
         </div>
+    </section>
+
+    <section>
+        <header>
+            <h2>Contact</h2>
+        </header>
+        <div class="content">
+            <p><strong>Feel free to contact me.</strong> I am open for any kind of critic or suggestions. The easiest way is to simply write me an email. </p>>
+        </div>
+        <footer>
+            <ul class="items">
+                <li>
+                    <h3>Email</h3>
+                    <a href="#">chrishoertnagl@gmx.at</a>
+                </li>
+                <li>
+                    <h3>Phone</h3>
+                    <a href="#">(000) 000-0000</a>
+                </li>
+                <li>
+                    <h3>Address</h3>
+                    <span>76133 Karlsruhe, Straße 135</span>
+                </li>
+            </ul>
+        </footer>
     </section>
 
 </div>
