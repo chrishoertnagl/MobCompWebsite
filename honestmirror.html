@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>The Honest Mirror</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="stylesheet" href="assets/css/honestmirror.css"/>
+</head>
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Intro -->
+    <section class="intro">
+        <header>
+            <h1>The Honest Mirror</h1>
+            <p>A web page that tells you how you look!</p>
+            <ul class="actions">
+                <li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <span class="image fill" data-position="center"><img src="images/pic01.jpg" alt=""/></span>
+        </div>
+    </section>
+
+    <!-- Section -->
+    <section id="first">
+        <header>
+            <h2>Here is the Mirror</h2>
+        </header>
+        <div class="content">
+            <button id="showVideo">Open the Mirror and check your look</button>
+            <video id="videospace" autoplay playsinline></video>
+        </div>
+        <script src="assets/js/honestmirror.js"></script>
+    </section>
+
+    <!-- Section -->
+    <section>
+        <header>
+            <h2>Here can you ask how you look</h2>
+        </header>
+        <div class="content">
+            <p><strong>Are you ready?</strong> Careful the mirror can be critical</p>
+            <button id="askmirror" class="btn" onclick="createAnswer()">Ask the honest Mirror</button>
+            <p id="answer"><strong>Have a nice day</strong> </p>
+            <script src="assets/js/getlook.js"></script>
+        </div>
+    </section>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
