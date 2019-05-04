@@ -19,7 +19,7 @@ video {
 {
   width:80%;
   height:70%;
-  margin-left: 3rem;
+  margin-left: 5rem;
   margin-top: 6rem;
   z-index: 1;
 }
@@ -35,9 +35,9 @@ video {
 #child_1
 {
   margin-left: -9rem;
-  margin-top: -18rem;
+  margin-top: -1rem;
   width:160%;
-  height:180%;
+  height:100%;
   z-index: 1;
 }
 
